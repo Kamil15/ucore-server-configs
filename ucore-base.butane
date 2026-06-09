@@ -4,8 +4,8 @@ passwd:
   users:
     - name: core
       ssh_authorized_keys:
-        - YOUR_SSH_PUB_KEY_HERE
-      password_hash: YOUR_GOOD_PASSWORD_HASH_HERE
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKJ55C/r/FVUTZqAiF45392kOMzAS1xNRLeTX5ShPlgQ mainkey
+      password_hash: $y$j9T$QO8J.S8/zfvn15hxZf9E.0$PzhLLuVgXE8IRlSN3U1XQbKOjxCUaEDtyaBEdsUaN.6
 storage:
   directories:
     - path: /etc/ucore-autorebase
